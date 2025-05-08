@@ -6,7 +6,7 @@ Initial code released.
 
 # Semi-Autonomous Teleoperation via Learning Non-Prehensile Manipulation Skills
 
-[[Paper](https://arxiv.org/pdf/2109.13081)[Video](https://youtu.be/YoO9sUQSHR4?feature=shared)]
+[[Paper](https://arxiv.org/pdf/2109.13081) | [Video](https://youtu.be/YoO9sUQSHR4?feature=shared)]
 
 Official Implementation of the paper ***Semi-Autonomous Teleoperation via Learning Non-Prehensile Manipulation Skills***
 
