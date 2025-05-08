@@ -1,0 +1,47 @@
+<mujoco model="coke">
+    <asset>
+      <texture type="2d" name="coke" file="coke_red.png"/>
+      <material name="coke_mat" texture="coke" specular="1.0" shininess="1.0"/>
+      <mesh file="coke_red.obj"/>
+      <mesh file="coke_red_collision_0.obj"/>
+    </asset>
+    <worldbody>
+    <!-- Target Box objects -->
+    <body name="target_box_01" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+      <body name="target_box_02" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint2" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom2" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+      <body name="target_box_03" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint3" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom3" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+      <body name="target_box_04" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint4" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom4" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+      <body name="target_box_05" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint5" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom5" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+      <body name="target_box_06" pos="1.25 0. 0.8" euler="1.57 0 0">
+        <joint name="coke:joint6" type="free"/>
+        <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+        <geom name="coke_geom6" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      </body>
+
+    </worldbody>
+  </mujoco>

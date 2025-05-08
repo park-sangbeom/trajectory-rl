@@ -1,0 +1,21 @@
+<mujoco model="ur5e scene with obstacles">
+
+    <!-- UR5e -->
+    <include file="ur5e_rg2.xml"/>
+
+    <!-- Base table -->
+    <include file="../object/base_table.xml"/>
+
+    <!-- Object table -->
+    <include file="../object/object_table.xml"/>
+
+    <!-- Objects -->
+    <!-- <include file="../object/obj_cylinder.xml"/> -->
+    <include file="../object/obj_place_viz.xml"/>
+    <include file="../object/obj_target.xml"/>
+
+    <!-- Floor Sky -->
+    <include file="../object/floor_sky_dark.xml"/>
+  
+  </mujoco>
+  

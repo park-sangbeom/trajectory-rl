@@ -1,0 +1,28 @@
+<mujoco model="coke">
+  <asset>
+    <texture type="2d" name="coke" file="coke_red.png"/>
+    <material name="coke_mat" texture="coke" specular="1.0" shininess="1.0"/>
+    <mesh file="coke_red.obj"/>
+    <mesh file="coke_red_collision_0.obj"/>
+
+    <!-- <mesh file="coke_red.obj" scale="0.008 0.008 0.008" /> -->
+    <!-- <mesh file="coke_red_collision_0.obj" scale="0.008 0.008 0.008" /> -->
+    <!-- <mesh file="coke_collision_1.obj" scale="0.008 0.008 0.008" /> -->
+    <!-- <mesh file="coke_collision_2.obj" scale="0.008 0.008 0.008" /> -->
+    <!-- <mesh file="coke_collision_3.obj" scale="0.008 0.008 0.008" /> -->
+    <!-- <mesh file="coke_collision_4.obj" scale="0.008 0.008 0.008" /> -->
+  </asset>
+  <worldbody>
+  <!-- Target Box objects -->
+  <body name="target_box_01" pos="1.25 0. 0.8" euler="1.57 0 0">
+      <joint name="coke:joint" type="free"/>
+      <geom material="coke_mat" mesh="coke_red" class="visual" rgba="1 1 1 1."/>  <!-- Before alpha value: 0.4 -->
+      <geom name="coke_geom" type="box" pos="0 0.01 0" size="0.025 0.01 0.025" rgba="1 1 1 0."/>
+      <!-- <geom mesh="coke_red_collision_0" class="collision"/> -->
+      <!-- <geom mesh="coke_collision_1" class="collision"/> -->
+      <!-- <geom mesh="coke_collision_2" class="collision"/> -->
+      <!-- <geom mesh="coke_collision_3" class="collision"/> -->
+      <!-- <geom mesh="coke_collision_4" class="collision"/> -->
+    </body>
+  </worldbody>
+</mujoco>

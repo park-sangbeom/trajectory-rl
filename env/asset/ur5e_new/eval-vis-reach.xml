@@ -1,0 +1,13 @@
+<mujoco model="ur5e scene with obstacles">
+
+    <!-- UR5e -->
+    <include file="ur5e_rg2.xml"/>
+
+    <!-- Region -->
+    <!-- <include file="../object/obj_reach_pentagon.xml"/> -->
+    <include file="../object/obj_reach_sphere.xml"/>
+
+    <!-- Floor Sky -->
+    <include file="../object/floor_sky_dark.xml"/>
+  
+  </mujoco>

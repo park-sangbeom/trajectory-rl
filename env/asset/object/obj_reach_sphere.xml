@@ -1,0 +1,31 @@
+<mujocoinclude>
+    <worldbody>
+        <!-- Cylinder objects -->
+        <body name="obj_region_01" pos="0.6 0.0 0.6">
+            <!-- <joint type="free" /> -->
+            <geom name="obj_region_01_geom" size="0.15" conaffinity="0" contype="0"
+                density="500" friction="1 0.005 0.0001" type="sphere" rgba="1 1 1 0.25" />
+        </body>
+        <body name="obj_region_02" pos="0.1854 0.5706 0.6">
+            <!-- <joint type="free" /> -->
+            <geom name="obj_region_02_geom" size="0.15" conaffinity="0" contype="0"
+                density="500" friction="1 0.005 0.0001" type="sphere"  rgba="1 1 1 0.25" />
+        </body>
+        <body name="obj_region_03" pos="0.1854 -0.5706 0.6">
+            <!-- <joint type="free" /> -->
+            <geom name="obj_region_03_geom" size="0.15" conaffinity="0" contype="0"
+                density="500" friction="1 0.005 0.0001" type="sphere"  rgba="1 1 1 0.25" />
+        </body>
+        <body name="obj_region_04" pos="-0.4854 0.3527 0.6">
+            <!-- <joint type="free" /> -->
+            <geom name="obj_region_04_geom" size="0.15" conaffinity="0" contype="0"
+                density="500" friction="1 0.005 0.0001" type="sphere"  rgba="1 1 1 0.25" />
+        </body>
+        <body name="obj_region_05" pos="-0.4854 -0.3527 0.6">
+            <!-- <joint type="free" /> -->
+            <geom name="obj_region_05_geom" size="0.15" conaffinity="0" contype="0"
+                density="500" friction="1 0.005 0.0001" type="sphere"  rgba="1 1 1 0.25" />
+        </body>
+    </worldbody>
+
+</mujocoinclude>

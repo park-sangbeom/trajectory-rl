@@ -1,0 +1,6 @@
+<mujoco model="swimmer maze scene">
+  <!-- UR5e -->
+  <include file="./swimmer.xml" />
+  <!-- Floor and Sky -->
+  <include file="./corrider.xml" />
+</mujoco>
