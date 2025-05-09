@@ -1,6 +1,6 @@
 # News
 
-We are happy to announce that **Trajectory-based RL for leanring manipulation skills** has been accepted to ICRA 2022! 😆🎉🎉
+We are happy to announce that **Trajectory-based RL for Long-Horizon Skills** has been accepted to ICRA 2022! 😆🎉🎉
 
 Initial code released.
 
